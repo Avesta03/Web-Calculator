@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<h1>Welcome to my excessively complicated calculator!</h1>
+</head>
+
+<link href="style.css" rel="stylesheet" type="text/css"/>
+
+<body>
+ <div style="font-size:125%"><b>Addition</div>
+  <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="number" id="b" name="b" value="10" /> +
+    <input type="number" id="a" name="a" value="10" /> =
+    <output name="result" for="a b">20</output>
+  </form>
+
+<br />
+
+<div style="font-size:125%"><b>Subtraction</div>
+  <form oninput="result.value=parseInt(a.value)-parseInt(b.value)">
+    <input type="number" id="a" name="a" value="100" /> -
+    <input type="number" id="b" name="b" value="100" /> =
+    <output name="result" for="a b">0</output>
+  </form>
+
+<br />
+
+<div style="font-size:125%"><b>Multiplication</div>
+  <form oninput="result.value=parseInt(a.value)*parseInt(b.value)">
+    <input type="number" id="b" name="b" value="100" /> *
+    <input type="number" id="a" name="a" value="100" /> =
+    <output name="result" for="a b">10000</output>
+  </form>
+
+<br />
+
+<div style="font-size:125%"><b>Division</div>
+  <form oninput="result.value=parseInt(a.value)/parseInt(b.value)">
+    <input type="number" id="a" name="a" value="100" /> /
+    <input type="number" id="b" name="b" value="100" /> =
+    <output name="result" for="a b">1</output>
+  </form>
+
+  <br />
+
+  <div style="font-size:125%"><b>Modulus/Remainder</div>
+    <form oninput="result.value=parseInt(a.value)%parseInt(b.value)">
+      <input type="number" id="a" name="a" value="50" /> /
+      <input type="number" id="b" name="b" value="2" /> =
+      <output name="result" for="a b">0</output>
+    </form>
+  
+</body>
+
+<br />
+
+<form>
+    <label for="termsandservices">Click here if you enjoyed the calculator!</label>
+    <input type="checkbox" name="termsandservices">
+    <button>Submit.</button>
+  </form>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <p>Avesta03 - <span class="underline">&copy; Copyright 2023</p></footer>  
+
+
+</html>

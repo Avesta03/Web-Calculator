@@ -1,0 +1,11 @@
+h1 { color: red; }
+div { color: orange; }
+body {
+  background-image: url(https://media.discordapp.net/attachments/902352548881661983/1062134610579959868/000111.png?width=616&height=469);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+form { color: white}
+
+footer { color: white}
